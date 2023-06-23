@@ -106,7 +106,7 @@ nav a:hover {
 
   .container {
     display: grid;
-    grid-template-columns: 35% 35%;
+    grid-template-columns: 35% 50%;
     grid-gap: 150px;
   }
 
@@ -114,13 +114,14 @@ nav a:hover {
 
   .image {
     margin-left: 1em;
-    grid-column: 1;
+    grid-column: 2;
     width: 100%;
   }
 
   .content {
-    margin-top: 20px;
-    grid-column: 2;
+    margin-top: -35em;
+    margin-left: 2em;
+    grid-column: 1;
   }
   /* .container1 {
     display: grid;
@@ -130,49 +131,51 @@ nav a:hover {
 
   
   .content1 {
-    margin-top: -33.5em;
-    margin-left: 1em;
+    margin-top: -40em;
+    margin-left: 2em;
     grid-column: 1;
   }
   
   .image1 {
     grid-column: 2;
     width: 100%;
-    margin-top: 10em;
+    margin-top: 1em;
   }
   
   .content2 {
-    margin-top: 49em;
-    margin-left: -20em;
-    grid-column: 2;
+    margin-top: -47em;
+    grid-column: 1;
+    margin-left: 2em;
   }
   .image2 {
     grid-column: 2;
     width: 50%;
-    margin-top: 10em;
+    margin-top: 9em;
+    margin-left: 100em;
   }
   .image3 {
     grid-column: 2;
     width: 46%;
-    margin-top: 10em;
+    margin-top: 9em;
+    margin-left: 36em;
   }
   .image4 {
-    margin-top: -21.9em;
-    margin-left: 16em;
+    margin-top: -21.3em;
+    margin-left: 63em;
     grid-column: 2;
-    width: 65%;
+    width: 67%;
   }
   .image5 {
     margin-top: 0em;
-    margin-left: -1.5em;
+    margin-left: 34em;
     grid-column: 2;
     width: 56%;
   }
   
   .image6 {
   
-    margin-top: 0em;
-    margin-left: -1.5em;
+    margin-top: -20em;
+    margin-left: 65em;
     grid-column: 2;
     width: 55%;
   }
@@ -180,21 +183,21 @@ nav a:hover {
   .image8 {
   
     margin-top: -60em;
-    margin-left: 18.8em;
+    margin-left: 50.7em;
     grid-column: 2;
     width: 46%;
   }
   .image7 {
   
-    margin-top: 0em;
-    margin-left:0em;
+    margin-top: 2em;
+    margin-left:50em;
     grid-column: 2;
     width: 55%;
   }
   .image9 {
   
-    margin-top: 0em;
-    margin-left: 17em;
+    margin-top: -3em;
+    margin-left: 50em;
     grid-column: 2;
     width: 55%;
   }
@@ -202,13 +205,14 @@ nav a:hover {
   .content3{
     
     margin-top: 18em;
-    margin-left: 1em;
+    margin-left: 2em;
     grid-column: 1;
   }
   .content4{
     
-    margin-top: 55em;
-    grid-column: 2;
+    margin-top: 0em;
+    grid-column: 1;
+    margin-left: 0em;
   }
   .content5{
     
@@ -216,11 +220,11 @@ nav a:hover {
     grid-column: 1;
   }
 
-  @media only screen and (max-width: 600px) {
+  /* @media only screen and (max-width: 600px) {
     .container {
       grid-template-columns: 1fr;
-    }
-  }
+    } */
+  /* } */
 
 
 p {
@@ -228,7 +232,7 @@ p {
 }
 
 /* Layout a colonne per il testo */
-.column {
+/* .column {
   grid-column: auto;
   float: left;
   width: 50%;
@@ -241,7 +245,7 @@ p {
   width: 50%;
   padding: 10px;
   box-sizing: border-box;
-}
+} */
 
 /* .secondo{ */
   /* grid-column: auto;
